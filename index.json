@@ -12,7 +12,7 @@
 			"access_key": "{{user `aws_access`}}",
 			"secret_key": "{{user `aws_secret`}}",
 			"region": "eu-west-1",
-			"instance_type": "t2.medium",
+			"instance_type": "t2.xlarge",
 			"ami_name": "Unir-Kibana-{{timestamp}}",
 			"subnet_id" :"{{user `sub_network_id`}}",
 			"vpc_id":"{{user `vpc_id`}}",
